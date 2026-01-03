@@ -38,9 +38,10 @@ jobs:
       - name: Install MyST
         run: npm install -g mystmd
       - name: Add mmyst-listing dependencies
-        run: npm install myst-parser
-        run: npm install js-yaml
-        run: npm install glob
+        run: |
+          npm install myst-parser
+          npm install js-yaml
+          npm install glob
       - name: Build HTML Assets
         run: myst build --html
       - name: Upload artifact
