@@ -1,0 +1,64 @@
+:root {
+  --title-font:  "Bembo"
+}
+
+.article {
+  font-family: "Vollkorn" !important;
+  font-size: 1.1rem;
+}
+
+.article :is(h1) {
+  text-align: center;
+}
+
+.article :is(h1, h2, h3, h4, h5, h6) {
+  font-family: "Lora" !important;
+  font-weight: 400 !important; 
+}
+
+.myst-primary-sidebar {
+  font-family: "Lora", serif;
+}
+
+
+.myst-top-nav {
+    /* margin-top: .25rem; */
+    /* padding-bottom: .5rem; */
+    /* visibility: visible; */
+    font-family: "Lora", serif;
+    /* font-weight: 800 !important; */ 
+    /* font-style: normal; */
+    /* text-transform: uppercase; */
+    letter-spacing: .11em !important;
+    /* line-height: 1.12rem; */ 
+    /* font-size: 1rem; */
+}
+
+
+@font-face{
+  font-family:"BemboSC"; /* The alias you want to use in your CSS */
+  src:local("Bembo Small Caps & Oldstyle Fig"); /* The exact name of the locally installed font */
+}
+
+.myst-home-link {
+  font-family: "Bembo Small Caps & Oldstyle Fig";
+  font-weight: 800;
+  font-size: 2rem !important;
+  /* letter-spacing: 0.11em !important; */
+}
+
+/* .figure rounded-corners{ */
+  /* border-radius: 15px; /* Applies a 15px radius to all corners */ */
+  /* overflow: hidden; */
+  /* background-color: #04AA6D; */
+  /* padding: -1px; */
+  /* width: 200px; */
+/* } */
+
+.home-title {
+  padding: 20px;
+  font-family: "Bembo Small Caps & Oldstyle Fig" !important;
+  background-color: #04AA6D;
+  font-size: 3rem;
+  text-align: center
+}

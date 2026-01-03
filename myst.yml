@@ -1,0 +1,51 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 8526b3ad-1ab6-48d2-99fa-000a2d6ce0e1
+  title: Home
+  # description:
+  # keywords: []
+  # authors: []
+  # github:
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
+  toc:
+  - file: index.md
+  - file: about.md
+  - file: projects.md
+  - file: publications.md
+  - file: talks.md
+  - file: blog.md
+    children:
+    - title: "2026"
+      children:
+      - pattern: "blog/2026/**{.ipynb,.md}"
+    - title: "2025"
+      children:
+      - pattern: "blog/2025/**{.ipynb,.md}"
+  plugins:
+    - type: javascript
+      path: https://raw.githubusercontent.com/ryanlovett/myst-listing-plugin/refs/tags/v0.1.0/listing.mjs
+  # - https://github.com/ryanlovett/myst-listing-plugin/blob/main/myst-plugin-driver.mjs
+bibliography: pubs.bib
+site:
+  template: book-theme
+  options:
+    style: styles/custom.css
+    folders: true
+    logo_text: Projective Space
+  actions:
+    - title: RSS
+      url: https://rtbs.dev/rss.xml
+  nav:
+    - title: About
+      url: /about
+    - title: Projects
+      url: /projects
+    - title: Publications
+      url: /publications
+    - title: Talks
+      url: /talks
+    - title: Blog
+      url: /blog
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
