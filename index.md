@@ -1,14 +1,18 @@
 ---
 site:
   hide_toc: true
+  hide_title_block: true
 ---
 
-<div style="font-family:Bembo; font-size:60pt; text-align:center;">
+<div class=title-page-text>
 Projective Space
 </div>
 
 
+## What is this? 
+
 ---
+
 
 _Perspectives on..._
 - complex systems and networks

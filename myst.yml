@@ -35,7 +35,7 @@ site:
     logo_text: Projective Space
   actions:
     - title: RSS
-      url: https://rtbs.dev/rss.xml
+      url: https://blog.rtbs.dev/rss.xml
   nav:
     - title: About
       url: /about

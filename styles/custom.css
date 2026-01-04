@@ -20,7 +20,17 @@
   font-family: "Lora", serif;
 }
 
-
+.title-page-text {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;     /* Centers vertically */
+    height: 85vh;           /* Sets the container height to the full viewport height */
+    /* padding-top: 2em; */
+    font-family:Vollkorn SC;
+    font-size:60pt;
+    font-weight: 200;
+    /* font-variant-caps:small-caps; */
+}
 .myst-top-nav {
     /* margin-top: .25rem; */
     /* padding-bottom: .5rem; */
@@ -41,10 +51,11 @@
 }
 
 .myst-home-link {
-  font-family: "Bembo Small Caps & Oldstyle Fig";
-  font-weight: 800;
+  font-family: "Vollkorn SC";
+  font-weight: 200;
   font-size: 2rem !important;
-  /* letter-spacing: 0.11em !important; */
+  /* font-variant-caps: small-caps; */
+  letter-spacing: 0.13em !important;
 }
 
 /* .figure rounded-corners{ */
@@ -55,10 +66,10 @@
   /* width: 200px; */
 /* } */
 
-.home-title {
-  padding: 20px;
-  font-family: "Bembo Small Caps & Oldstyle Fig" !important;
-  background-color: #04AA6D;
-  font-size: 3rem;
-  text-align: center
+/* .home-title { */
+  /* padding: 20px; */
+  /* font-family: "Bembo Small Caps & Oldstyle Fig" !important; */
+  /* background-color: #04AA6D; */
+  /* font-size: 3rem; */
+  /* text-align: center */
 }
