@@ -9,10 +9,11 @@ Projective Space
 </div>
 
 
-## What is this? 
+<div style="text-align:center">↓ What is this? ↓</div>
 
 ---
 
+### Rachael's Projects & Blog
 
 _Perspectives on..._
 - complex systems and networks

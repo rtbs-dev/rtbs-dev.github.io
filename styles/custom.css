@@ -26,10 +26,10 @@
     display: flex;
     justify-content: center; /* Centers horizontally */
     align-items: center;     /* Centers vertically */
-    height: 85vh;           /* Sets the container height to the full viewport height */
-    /* padding-top: 2em; */
+    height: 90vh;           /* Sets the container height to the full viewport height */
+    text-align: center;
     font-family:Vollkorn SC;
-    font-size:60pt;
+    font-size: min(60pt, 10vmin);
     font-weight: 200;
     /* font-variant-caps:small-caps; */
 }
@@ -55,7 +55,7 @@
 .myst-home-link {
   font-family: "Vollkorn SC";
   font-weight: 200;
-  font-size: 2rem !important;
+  font-size: 1rem !important;
   /* font-variant-caps: small-caps; */
   letter-spacing: 0.13em !important;
 }
